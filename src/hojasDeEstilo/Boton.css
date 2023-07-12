@@ -1,0 +1,27 @@
+button{
+    width: 20%;
+    min-width: 100px;
+    height: 70px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+button:hover{
+      transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+.boton-clic{
+    background-color: rgb(7, 7, 155);
+}
+.boton-reiniciar{
+    background-color: rgb(110, 6, 110);
+}

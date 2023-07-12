@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(43, 24, 109);
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: Lato, sans-serif;
+}
+
+.full-logo-contenedor{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.full-logo{
+    width: 100%;
+}
+.contenedor-principal{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
